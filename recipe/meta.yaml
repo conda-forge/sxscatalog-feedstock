@@ -1,5 +1,5 @@
 {% set name = "sxscatalog" %}
-{% set version = "3.0.27" %}
+{% set version = "3.0.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sxscatalog-{{ version }}.tar.gz
-  sha256: c467ff09fa569afd4cae20715ae053c33fd23608a2d146f478697d678cb385ba
+  sha256: bee41f4b5cc1f90ab42cbbc60292b9926f5ce2aad925f72c382dd45e04f97662
 
 build:
   noarch: python
